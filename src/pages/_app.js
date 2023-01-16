@@ -4,7 +4,7 @@ import '@/src/styles/test.css'
 import DefaultLayout from '../components/layouts/defaultLayout'
 
 export default function App({ Component, pageProps }) {
-  return <DefaultLayout>
+  return (<DefaultLayout>
     <Component {...pageProps} />
-    </DefaultLayout>
+  </DefaultLayout>)
 }
