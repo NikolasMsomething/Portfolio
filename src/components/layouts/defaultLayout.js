@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyledContainer, StyledSection } from '../atoms/Section'
 
-export default function defaultLayout({ children }) {
+export default function DefaultLayout({ children }) {
   return (
     <StyledSection>
       <StyledContainer>
