@@ -1,4 +1,6 @@
-import PropTypes from 'prop-types'; //
+import PropTypes from 'prop-types';
+
+import DefaultLayout from '@/src/components/layouts/Layout';
 
 import { Store } from '../stores/main';
 
@@ -7,11 +9,13 @@ import '@/src/styles/font.css';
 
 export default function App({ Component, pageProps }) {
 	return <Store>
-		<Component {...pageProps} />
+		<DefaultLayout>
+			<Component {...pageProps} />
+		</DefaultLayout>
 	</Store>;
 }
 
 App.propTypes = {
-	Component: PropTypes.element.isRequired,
-	pageProps: PropTypes.object.isRequired
+	pageProps: PropTypes.object.isRequired,
+	Component: PropTypes.any.isRequired
 };

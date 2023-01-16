@@ -12,7 +12,7 @@ export default function Header() {
 	return (
 		<StyledHeader darkMode={state.darkMode}>
 			<ToggleDarkMode />
-			<p>nikolasmsomething</p>
+			<h2>nm</h2>
 		</StyledHeader>
 	);
 }

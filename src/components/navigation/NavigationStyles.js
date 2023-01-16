@@ -14,7 +14,8 @@ export const StyledNav = styled.nav`
   transition: background-color 0.2s linear;
 
   a {
-    color: ${colors.main};
+    color: ${props => props.darkMode ? colors.yellow : colors.main};
+    font-weight: 800;
     text-decoration: none;
 
     &:hover {
@@ -23,7 +24,7 @@ export const StyledNav = styled.nav`
     }
 
     &:visited {
-      color: ${colors.main};
+      color: ${props => props.darkMode ? colors.yellow : colors.main};
     }
   }
 

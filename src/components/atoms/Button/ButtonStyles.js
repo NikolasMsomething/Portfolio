@@ -1,22 +1,23 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-import { colors } from '@/src/styles/util/index';
+import { colors, fonts } from '@/src/styles/util/index';
 
 export const StyledButton = styled(Link)`
-  color: ${props => props.darkMode ? colors.white : colors.main};
+  color: ${props => props.darkMode ? colors.yellow : colors.main};
   display: block;
   position: relative;
-  font-family: "lores12", sans-serif;
+  font-family: ${fonts.code};
+  font-weight: 800;
   margin-top: 32px;
   text-transform: uppercase;
   text-decoration: none;
-  border: 1px solid ${colors.main};
+  border: 1px solid  ${props => props.darkMode ? colors.yellow : colors.main};
   padding: 0.75em 1em;
   width: fit-content;
 
   &:visited {
-    color: ${colors.main};
+    color: ${props => props.darkMode ? colors.yellow : colors.main};
   }
 
   &:before {
@@ -26,6 +27,6 @@ export const StyledButton = styled(Link)`
     right: 4px;
     bottom: 4px;
     left: 4px;
-    border: 1px solid ${colors.main}; 
+    border: 1px solid ${props => props.darkMode ? colors.yellow : colors.main};
   }
 `;

@@ -9,48 +9,36 @@
 }
 
 @font-face {
-    font-family: 'Leawood Bold';
-    src: url('../assets/fonts/LoRes12OT-Regular.eot');
+    font-family: 'FAB';
+    src: url('../assets/fonts/Fleshandblood.ttf');
 }
 
 @font-face {
-    font-family: 'LoRes 12 OT Narrow';
-    src: url('../assets/fonts/LoRes12OTNarrow-Regular.eot');
-    src: local('LoRes 12 OT Narrow Regular'), local('../assets/fonts/LoRes12OTNarrow-Regular'),
-        url('../assets/fonts/LoRes12OTNarrow-Regular.eot') format('woff2'),
-        url('../assets/fonts/LoRes12OTNarrow-Regular.woff') format('woff'),
-        url('../assets/fonts/LoRes12OTNarrow-Regular.ttf') format('truetype');
+    font-family: 'DS3';
+    src: url('../assets/fonts/OptimusPrinceps.ttf');
+}
+
+
+@font-face {
+    font-family: 'ARS Maquette Pro';
+    src: url('../assets/fonts/ARSMaquettePro-Regular.eot');
+    src: local('ARS Maquette Pro Regular'), local('ARSMaquettePro-Regular'),
+        url('../assets/fonts/ARSMaquettePro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ARSMaquettePro-Regular.woff2') format('woff2'),
+        url('../assets/fonts/ARSMaquettePro-Regular.woff') format('woff'),
+        url('../assets/fonts/ARSMaquettePro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'LoRes 12 OT';
-    src: url('../assets/fonts/LoRes12OT-Bold.eot');
-    src: local('LoRes 12 OT Bold'), local('LoRes12OT-Bold'),
-        url('../assets/fonts/LoRes12OT-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/LoRes12OT-Bold.woff2') format('woff2'),
-        url('../assets/fonts/LoRes12OT-Bold.woff') format('woff'),
-        url('../assets/fonts/LoRes12OT-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'LoRes 12 OT';
-    src: url('../assets/fonts/LoRes12OT-Regular.eot');
-    src: local('LoRes 12 OT Regular'), local('LoRes12OT-Regular'),
-        url('../assets/fonts/LoRes12OT-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/LoRes12OT-Regular.woff2') format('woff2'),
-        url('../assets/fonts/LoRes12OT-Regular.woff') format('woff'),
-        url('../assets/fonts/LoRes12OT-Regular.ttf') format('truetype');
+    font-family: 'ARS Maquette Italic';
+    src: url('../assets/fonts/ARSMaquettePro-Italic.eot');
+    src: local('ARS Maquette Pro Italic'), local('ARSMaquettePro-Italic'),
+        url('../assets/fonts/ARSMaquettePro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ARSMaquettePro-Italic.woff2') format('woff2'),
+        url('../assets/fonts/ARSMaquettePro-Italic.woff') format('woff'),
+        url('../assets/fonts/ARSMaquettePro-Italic.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Alpha Prota';
-    src: url('../assets/fonts/AlphaProta.ttf');
-    font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 }

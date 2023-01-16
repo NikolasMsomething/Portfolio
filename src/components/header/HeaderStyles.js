@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { colors,fonts } from '@/src/styles/util/index';
+import { colors, fonts } from '@/src/styles/util/index';
 
 export const StyledHeader = styled.div`
   align-items: center;
@@ -10,7 +10,7 @@ export const StyledHeader = styled.div`
   font-family: ${fonts.code};
   position: relative;
 
-  p {
+  h2 {
     color: ${props => props.darkMode ? colors.white : 'inherit'};
   }
 `;
