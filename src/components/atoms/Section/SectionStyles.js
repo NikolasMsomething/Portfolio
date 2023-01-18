@@ -10,10 +10,11 @@ export const StyledContainer = styled.div`
 `;
 
 export const StyledSection = styled.section`
-height: 100vh;
   background-color: ${props => props.darkMode ? colors.darkMode : colors.beige};
   display: flex;
   justify-content: center;
+  height: 100vh;
   margin: auto;
+  overflow-y: scroll;
   transition: background-color 0.2s linear;
 `;

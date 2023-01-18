@@ -66,6 +66,7 @@ h4,
 h5,
 h6 {
   color: #000080;
+  font-family: 'DS3';
   overflow-wrap: break-word;
 }
 
@@ -73,7 +74,8 @@ h1 {
   font-size: 128px;
 }
 
-p {
+p,
+div {
   font-family: 'Leawood Regular';
 }
 

@@ -11,8 +11,8 @@ export default function Header() {
 
 	return (
 		<StyledHeader darkMode={state.darkMode}>
-			<ToggleDarkMode />
 			<h2>nm</h2>
+			<ToggleDarkMode />
 		</StyledHeader>
 	);
 }

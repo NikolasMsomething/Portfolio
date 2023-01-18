@@ -15,16 +15,10 @@ export default function Navigation() {
 					<Link href="/">H - HOME</Link>
 				</li>
 				<li>
-					<Link href="/about">A - ABOUT ME</Link>
+					<Link href="/work-experience">W - WORK EXPERIENCE</Link>
 				</li>
 				<li>
-					<Link href="/blog/hello-world">W - WORK EXPERIENCE</Link>
-				</li>
-				<li>
-					<Link href="/blog/hello-world">P - PROJECTS</Link>
-				</li>
-				<li>
-					<Link href="/blog/hello-world">C - CONTACT</Link>
+					<Link href="/contact">C - CONTACT</Link>
 				</li>
 			</ul>
 		</StyledNav>

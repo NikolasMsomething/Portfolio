@@ -3,5 +3,5 @@ import styled from 'styled-components';
 
 export const StyledDarkModeToggle = styled(DarkModeSwitch)`
   position: absolute;
-  left: 16px;
+  right: 16px;
 `;

@@ -1,10 +1,15 @@
+import { useContext } from 'react';
 import PropTypes from 'prop-types'; //
+
+import { Context } from '@/src/stores/main.js';
 
 import { StyledButton } from './ButtonStyles';
 
-export default function Button({ darkMode, children, url }) {
+export default function Button({ children, url }) {
+	const [state] = useContext(Context);
+
 	return (
-		<StyledButton darkMode={darkMode} href={url} >
+		<StyledButton darkMode={state.darkMode} href={url} >
 			{children}
 		</StyledButton>
 	);

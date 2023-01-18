@@ -32,5 +32,6 @@ export const StyledNav = styled.nav`
     display: flex;
     justify-content: space-between;
     list-style: none;
+    padding-left: 0;
   }
 `;

@@ -1,12 +1,8 @@
 import { useContext } from 'react';
 
 import Button from '@/src/components/atoms/Button';
-// import dream from '@/src/assets/images/rose.svg';
-// import doSvg from '@/src/assets/images/do.svg';
-// import Image from 'next/image';
 import Rose from '@/src/components/atoms/SvgComponents/Rose';
 import { Context } from '@/src/stores/main.js';
-// import DigitalOcean from '@/src/components/atoms/SvgComponents/DigitalOcean';
 import { colors } from '@/src/styles/util/index';
 
 import { StyledTemplateContainer } from '../templateStyles';
@@ -21,23 +17,20 @@ export default function HomeTemplate() {
 			<Rose fill={state.darkMode ? colors.yellow : colors.main} />
 			<StyledAboutInformation darkMode={state.darkMode}>
 				<h1>SOFTWARE ENGINEER</h1>
-				<h1>NIK MELGAREJO</h1>
+				<h1>NIKOLAS MELGAREJO</h1>
 				<p>
-					Ever since I was young I always looked to become a top contender in whatever I loved doing.
-					I wanted to become a strong fighting game player, an excellent tinkerer,
-					and the funniest guy around. As I got older I found a new passion that brings
-					challenge and critical thinking. I believe programming brings the best out of me
-					and I&apos;m ever grateful for that.
-				</p>
+					Ever since I was young I always looked to become great in whatever I enjoyed doing.
+					Fighting games, card games, and Rubik&lsquo;s
+					cubing is where I poured most of my heart into.
+					As I got older it became clear what field I wanted to explore. Being a Software Engineer brings out
+					the same challenge I yearned for when I was just a kid. It allows me to re-experience that feeling you get when you solve a problem after throwing yourself into it for hours. Programming is my dream job.</p>
 				<br />
 				<p>
 					I am currently a Full-Stack Web Developer
-					available to the NYC/Philadelphia area. Nowadays you&apos;ll
-					see me studying hard and practicing to keep myself sharp.
-					Find me in a coffee shop near you!
+					available to the NYC/Philadelphia area looking mostly for Remote work.
 				</p>
-				<Button darkMode={state.darkMode} url='/'>
-					My work experience
+				<Button url='/work-experience'>
+					Work Experience
 				</Button>
 			</StyledAboutInformation>
 		</StyledTemplateContainer>
