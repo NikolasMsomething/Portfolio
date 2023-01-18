@@ -7,7 +7,8 @@ export const StyledTemplateContainer = styled.div`
   margin: 64px 0;
 
   svg {
-    color: red;
+    max-width: 480px;
+    width: 100%;
   }
 `;
 

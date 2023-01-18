@@ -13,7 +13,7 @@ export const StyledSection = styled.section`
   background-color: ${props => props.darkMode ? colors.darkMode : colors.beige};
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   margin: auto;
   overflow-y: scroll;
   transition: background-color 0.2s linear;
