@@ -38,7 +38,7 @@ export default function WorkExperienceTemplate() {
 					<h1>Experience</h1>
 					<p>
             I have experience in creating scalable web applications that are consumed by millions a month.
-            Below you will find the companies I&lsquo;ve work(ed) for and my accomplishments with them.
+            Below you will find the companies I work(ed) for and my accomplishments with them.
 					</p>
 					<Button url='/contact'>
             Contact me

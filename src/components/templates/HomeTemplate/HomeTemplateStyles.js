@@ -7,8 +7,7 @@ export const StyledAboutInformation = styled.div`
     color:  ${props => props.darkMode ? colors.yellow : colors.main};
     font-family: ${fonts.code};
     letter-spacing: 2px;
-    line-height: 108px;
-    font-size: 92px;
+    line-height: 80px;
 
     &:nth-of-type(2) {
       margin-bottom: 32px;
