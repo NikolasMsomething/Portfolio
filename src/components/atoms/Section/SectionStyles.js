@@ -15,6 +15,5 @@ export const StyledSection = styled.section`
   justify-content: center;
   min-height: 100vh;
   margin: auto;
-  overflow-y: scroll;
   transition: background-color 0.2s linear;
 `;
