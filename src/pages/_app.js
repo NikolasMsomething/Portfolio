@@ -1,10 +1,21 @@
-import '@/src/styles/globals.css'
-import '@/src/styles/font.css'
-import '@/src/styles/test.css'
-import DefaultLayout from '../components/layouts/defaultLayout'
+import PropTypes from 'prop-types';
+
+import DefaultLayout from '@/src/components/layouts/Layout';
+
+import { Store } from '../stores/main';
+
+import '@/src/styles/globals.css';
+import '@/src/styles/font.css';
 
 export default function App({ Component, pageProps }) {
-  return <DefaultLayout>
-    <Component {...pageProps} />
-    </DefaultLayout>
+	return <Store>
+		<DefaultLayout>
+			<Component {...pageProps} />
+		</DefaultLayout>
+	</Store>;
 }
+
+App.propTypes = {
+	pageProps: PropTypes.object.isRequired,
+	Component: PropTypes.any.isRequired
+};
